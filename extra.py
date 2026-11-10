@@ -1,0 +1,5 @@
+string = input("Enter a word: ")
+leng = len(string)
+print(f"The first letter is {string[0]}")
+print(f"The last letter is {string[-1]}")
+print(f"The middle letter is {string[int(leng/2)]}")
